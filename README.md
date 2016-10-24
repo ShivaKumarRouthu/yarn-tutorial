@@ -9,7 +9,7 @@ It is a new package manger introduced by facebook. This was build to overcome is
 
 ### Features of Yarn
 
-speed
-reliable
-consistent
-offline download
+- speed
+- reliable
+- consistent
+- offline download
