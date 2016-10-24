@@ -7,7 +7,7 @@ packages installation.
 
 It is a new package manager introduced by facebook. This was build to overcome issues like consistency, speed etc.. Using this manager we can do more than what can be done using npm. internally yarn will be pointing same repository that npm does but the only difference is the implementaion.
 
-Yarn does things by using concept of caching. 
+Yarn does things by using concept of caching for dowloading packages. Yarn will download packages 4X times faster than npm. It can download the packages offline too.
 
 ### Features of Yarn
 
@@ -15,3 +15,5 @@ Yarn does things by using concept of caching.
 - reliable
 - consistent
 - offline download
+
+###### Speed
