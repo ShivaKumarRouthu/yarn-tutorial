@@ -14,6 +14,12 @@ Yarn does things by using concept of caching for dowloading packages. Yarn will 
 `````
 npm install -g yarn
 `````
+Type >yarn in terminal / command prompt
+``````
+yarn install v0.16.1                                                                                                 
+success Already up-to-date.                                                                                          
+Done in 0.25s.
+``````
 
 ### Features of Yarn
 
