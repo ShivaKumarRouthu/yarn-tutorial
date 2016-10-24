@@ -13,7 +13,6 @@ Yarn does things by using concept of caching for dowloading packages. Yarn will 
 
 `````
 npm install -g yarn
-
 `````
 
 ### Features of Yarn
