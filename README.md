@@ -7,14 +7,14 @@ packages installation.
 
 It is a new package manager introduced by facebook. This was build to overcome issues like consistency, speed etc.. Using this manager we can do more than what can be done using npm. internally yarn will be pointing same repository that npm does but the only difference is the implementaion.
 
-Yarn does things by using concept of caching for dowloading packages. Yarn will download packages 4X times faster than npm. It can download the packages offline too.
+Yarn does things by using concept of caching and asynchrounous package downloading. Yarn will download packages 4X times faster than npm. It can download the packages offline too. 
 
 ## Setup Yarn 
 
-`````
+``````
 npm install -g yarn
-`````
-Type >yarn in terminal / command prompt
+``````
+Type yarn in terminal / command prompt
 ``````
 yarn install v0.16.1                                                                                                 
 success Already up-to-date.                                                                                          
@@ -29,3 +29,5 @@ Done in 0.25s.
 - offline download
 
 ###### Speed
+
+
