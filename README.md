@@ -28,7 +28,7 @@ Done in 0.25s.
 - consistent
 - offline download
 
-###### Speed
+##### Speed
 
 The speed is the one of the major issue resolved by yarn over npm. Yarn will download all the package and dependency packages asynchronous that is how the yarn will download the packages and maintain same architeture like npm
 
