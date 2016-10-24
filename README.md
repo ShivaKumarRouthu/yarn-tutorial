@@ -9,6 +9,13 @@ It is a new package manager introduced by facebook. This was build to overcome i
 
 Yarn does things by using concept of caching for dowloading packages. Yarn will download packages 4X times faster than npm. It can download the packages offline too.
 
+## Setup Yarn 
+
+`````
+npm install -g yarn
+
+`````
+
 ### Features of Yarn
 
 - speed
