@@ -69,4 +69,10 @@ This is similar to npm init, it will initialize a package with few question and 
 
 
 **yarn install** or **yarn** 
-This is similar to npm install, it will download all the packages from package.json file and update the same in lockfile. During *migration* from npm to yarn use same command on existing package.json file to download node modules resolving dependencies and create a lockfile
+This is similar to npm install, it will download all the packages from package.json file and update the same in lockfile. During *migration* from npm to yarn use same command on existing package.json file to download node modules resolving dependencies and create a lockfile. yarn install can be used with different flags --offline, --force, --flat, --production and other .. [Read more](https://yarnpkg.com/en/docs/cli/install)
+
+
+**yarn add (package name)@(version number)**
+This will download the node module specified and add them to the package.json and yarn.lock file.
+
+
