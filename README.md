@@ -54,7 +54,13 @@ yarn install socket.io --offline
 
 
 
+## Commands 
 
+* init
+* install
+* add
+* update 
+* remove
 
 
 
