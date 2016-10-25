@@ -21,6 +21,8 @@ success Already up-to-date.
 Done in 0.25s.
 ``````
 
+you can find other ways of installations [here](https://yarnpkg.com/en/docs/install#mac-tab)
+
 ### Features of Yarn
 
 - speed
