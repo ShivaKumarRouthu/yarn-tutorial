@@ -62,5 +62,12 @@ yarn install socket.io --offline
 * update 
 * remove
 
+``````
+**yarn init** 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is similar to npm init, it will initialize a package with few question and create a lockfile. A lockfile is similar to shrinkwrap in npm to maintain consistency over downloading node modules
+``````
 
-**yarn init** or **yarn** 
+``````
+**yarn install** or **yarn** 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is similar to npm install, it will download all the packages from package.json file and update the same in lockfile. During *migration* from npm to yarn use same command on existing package.json file to download node modules resolving dependencies and create a lockfile
+``````
