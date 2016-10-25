@@ -32,10 +32,14 @@ you can find other ways of installations [here](https://yarnpkg.com/en/docs/inst
 
 ##### Speed
 
-The speed is the one of the major issue resolved by yarn over npm. Yarn will download all the package and dependency packages asynchronous that is how the yarn will download the packages and maintain same architeture like npm.
+The speed is the one of the major issue resolved by yarn over npm. Yarn will download all the package and dependency packages asynchronous that is how the yarn will download the packages and maintain same architeture like npm. Consider a npm package.json with few packages already added to it
 
 ``````
 npm install 
+``````
+
+``````
+yarn
 ``````
 
 
