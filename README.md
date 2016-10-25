@@ -42,11 +42,11 @@ yarn
 ``````
 ##### Reliable
 
-Yarn takes care of full installation of node modules on different operating systems. It uses the detailed description of each node module in the lockfile to guarantee installation on different operating system with consistency.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Yarn takes care of full installation of node modules on different operating systems. It uses the detailed description of each node module in the lockfile to guarantee installation on different operating system with consistency.
 
 ##### Offline Download
 
-Yes.. yarn can download the packages in offline mode if you have installed the package in your machine atleast once. use below command to install a package offline 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Yes.. yarn can download the packages in offline mode if you have installed the package in your machine atleast once. use below command to install a package offline 
 
 ``````
 yarn install socket.io --offline
@@ -63,5 +63,4 @@ yarn install socket.io --offline
 * remove
 
 
-
-
+**yarn init** or **yarn** 
