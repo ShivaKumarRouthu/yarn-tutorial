@@ -26,13 +26,12 @@ you can find other ways of installations [here](https://yarnpkg.com/en/docs/inst
 ### Features of Yarn
 
 - speed
-- reliable
-- consistent
+- reliable & consistent
 - offline download
 
 ##### Speed
 
-The speed is the one of the major issue resolved by yarn over npm. Yarn will download all the package and dependency packages asynchronous that is how the yarn will download the packages and maintain same architeture like npm. Consider a npm package.json with few packages already added to it
+The speed is the one of the major issue resolved by yarn over npm. Yarn will download all the package and dependency packages asynchronous that is how the yarn will download the packages and maintain same architeture like npm. Consider package.json with few packages already added to this repository and give following two commands and see how much time they takes
 
 ``````
 npm install 
@@ -41,6 +40,21 @@ npm install
 ``````
 yarn
 ``````
+##### Reliable
+
+Yarn takes care of full installation of node modules on different operating systems. It uses the detailed description of each node module in the lockfile to guarantee installation on different operating system with consistency.
+
+##### Offline Download
+
+Yes.. yarn can download the packages in offline mode if you have installed the package in your machine atleast once. use below command to install a package offline 
+
+``````
+yarn install socket.io --offline
+``````
+
+
+
+
 
 
 
