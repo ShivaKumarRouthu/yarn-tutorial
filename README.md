@@ -75,15 +75,22 @@ This is similar to npm install, it will download all the packages from package.j
 
 **yarn add (package name)@(version number)**
 This will download the node module specified and add them to the package.json and yarn.lock file.
-
+``````
+yarn add express@3.0.0
+``````
 
 **yarn upgrade (package name)@(version number)**
 This will download the node module specified and updated them to the package.json and yarn.lock file. If you do not specify any package name it will automatically upgrade all the packages from package.json
+``````
+yarn upgrade express
+``````
 
 
 **yarn remove (package name)@(version number)**
 This will remove the node module specified and also remove them from the package.json and yarn.lock file.
-
+``````
+yarn remove express
+``````
 
 **yarn config**
 This is used to view/set the configuration of yarn.
