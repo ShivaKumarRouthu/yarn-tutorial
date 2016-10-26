@@ -1,0 +1,17 @@
+{
+  "name": "yarnDemo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "url": "https://github.com/ShivaKumarRouthu/yarn-tutorial.git",
+    "type": "git"
+  },
+  "author": "shiva <shivakumarrouthu22@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0",
+    "gulp": "^3.9.1",
+    "mongoose": "^4.6.5",
+    "socket.io": "^1.5.1"
+  }
+}
